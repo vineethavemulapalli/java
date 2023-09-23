@@ -1,9 +1,8 @@
 import java.util.*;
 public class PrimeNumber2 {
     static{
-        System.out.println(
-            "Enter postive integer to check prime number or not: ");
-    }
+        System.out.println("Enter postive integer to check prime number or not in command line arguments: ");
+  }
   public static void main(String[] args) {
       int num=Integer.parseInt(args[0]);
     boolean flag = false;
